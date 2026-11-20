@@ -214,8 +214,21 @@ def main():
     # Build service
     service, error = get_data_api_service()
     if error:
-        print(json.dumps(error), file=sys.stderr)
-        sys.exit(1)
+        from utils import ytdlp_fallback
+        if not ytdlp_fallback.available():
+            print(json.dumps(error), file=sys.stderr)
+            sys.exit(1)
+        try:
+            result = ytdlp_fallback.fetch_channel(args.channel, args.videos)
+        except Exception as e:
+            print(json.dumps({"error": f"yt-dlp fallback failed: {e}", "api_error": error}),
+                  file=sys.stderr)
+            sys.exit(1)
+        TMP_DIR.mkdir(parents=True, exist_ok=True)
+        with open(cache_path, "w") as f:
+            json.dump(result, f, indent=2)
+        print(json.dumps(result, indent=2))
+        return
 
     # Resolve channel ID
     channel_id = resolve_channel_id(service, parsed)

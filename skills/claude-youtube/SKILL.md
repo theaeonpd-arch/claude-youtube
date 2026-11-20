@@ -192,13 +192,14 @@ See `sub-skills/thumbnail.md` for prompt engineering guidelines.
 
 ## Execution Scripts
 
-Scripts require YouTube API credentials. Before calling any script:
-1. Check if `YOUTUBE_API_KEY` environment variable exists
-2. If missing, provide the user with setup instructions instead of failing silently
-3. For Analytics API scripts, check OAuth token exists
+`fetch_channel_data.py`, `search_competitor_videos.py` and `fetch_transcript.py`
+work WITHOUT any API key: if `YOUTUBE_API_KEY` is missing they automatically fall
+back to yt-dlp (`execution/utils/ytdlp_fallback.py`, no quota). Just run them.
+In fallback mode channel `total_views`/`video_count` are null; everything else
+(subscribers, per-video views/likes/comments/tags/dates) is available.
 
-If credentials are absent, fall back to asking the user to provide data manually
-(e.g., paste YouTube Studio screenshots or describe their metrics).
+Only `fetch_video_analytics.py` (private Studio metrics: retention, CTR, revenue)
+needs OAuth. If that is absent, ask the user to paste/describe their Studio metrics.
 
 | Script | Purpose | Quota Cost |
 |--------|---------|-----------|

@@ -178,8 +178,11 @@ def main():
     # Build service
     service, error = get_data_api_service()
     if error:
-        print(json.dumps(error), file=sys.stderr)
-        sys.exit(1)
+        from utils import ytdlp_fallback
+        if not ytdlp_fallback.available():
+            print(json.dumps(error), file=sys.stderr)
+            sys.exit(1)
+        service = None
 
     # Date filter
     published_after = None
@@ -188,7 +191,13 @@ def main():
         published_after = dt.strftime("%Y-%m-%dT00:00:00Z")
 
     # Search
-    videos = search_videos(
+    if service is None:
+        videos = ytdlp_fallback.search(
+            args.query, channel_id=args.channel_id, max_results=args.max_results,
+            order=args.order, days=args.days,
+        )
+    else:
+        videos = search_videos(
         service,
         query=args.query,
         channel_id=args.channel_id,
