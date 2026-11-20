@@ -63,7 +63,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: calm, loving, patient
 - Catchphrase: "What do you think, little one?"
 - LOCKED LOOK: Grandma Moonbun, a gentle lavender-grey grandmother bunny with long upright ears with pink insides, a cream muzzle, a small dark nose, round thin wire glasses, rosy cheeks, wearing a soft sage-green cardigan with one large button over a cream dress, and a fluffy round tail.
-- Voice: Higgsfield preset "Opal" (elevenlabs_v4, voice_id 66f35c82-2088-55eb-a0aa-7bf715dc03b7)
+- Voice: ElevenLabs "Huggleberry ★ Grandma Moonbun (Maria Moody)" — octogenarian grandmotherly storyteller (library)
 - Reference images: characters/images/grandma-moonbun-turnaround.webp, characters/images/grandma-moonbun-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
