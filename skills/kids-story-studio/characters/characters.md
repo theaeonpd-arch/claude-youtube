@@ -19,7 +19,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: warm, curious, a little impatient
 - Catchphrase: "Huggle hugs make it better!"
 - LOCKED LOOK: Huggle, a small chubby brown bear cub with fluffy textured fur, a dark brown curly tuft on top of his head, round ears with pink insides, a light tan muzzle with a small dark nose, small dark eyes with expressive brows, rosy pink cheeks, wearing short light-blue overalls with two dark-blue buttons and a pink heart patch on the bib, and a small round tail.
-- Voice: ElevenLabs "Huggleberry - Huggle A (Teddy Twinkle)" (library voice; cartoon boy)
+- Voice: TBD (candidates in ElevenLabs marked "Huggleberry ? Huggle candidate"); avoid voices that imitate known characters
 - Reference images: characters/images/huggle-turnaround.webp, characters/images/huggle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -42,7 +42,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: cheerful, creative, a bit messy
 - Catchphrase: "Ooh, I have an idea!"
 - LOCKED LOOK: Twinkle, a golden-yellow kitten with pointed ears with pink insides, a cream muzzle and cream paw tips, a small brown nose, big dark eyes, rosy cheeks, a fluffy tail with a cream tip, wearing a simple sleeveless teal dress.
-- Voice: ElevenLabs "Huggleberry - Twinkle" (Voice Design)
+- Voice: ElevenLabs "Huggleberry ★ Twinkle" (Voice Design)
 - Reference images: characters/images/twinkle-turnaround.webp, characters/images/twinkle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -53,7 +53,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: helpful, quick, musical
 - Catchphrase: "Buzz buzz, it's song time!"
 - LOCKED LOOK: Kindle, a small round fuzzy honey-yellow bee with two wide dark-brown stripes on the lower body, two antennae with round brown tips, light mint translucent wings, big dark eyes, a small brown nose, rosy cheeks, a lavender bow tie, tiny brown feet, always hovering slightly above the ground.
-- Voice: ElevenLabs "Huggleberry - Kindle" (Voice Design)
+- Voice: ElevenLabs "Huggleberry ★ Kindle" (Voice Design)
 - Reference images: characters/images/kindle-turnaround.webp, characters/images/kindle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -68,7 +68,8 @@ image as a generation reference, so no text leaks into scenes.
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Narrator
-- Voice: ElevenLabs, TBD (motherly, warm, intimate, nostalgic storyteller)
+- Voice: ElevenLabs "Huggleberry ★ Narrator (Grandfather Joe)" — warm British grandfather storyteller; settings stability 0.3, similarity 0.8, style 0.45, speaker boost on
+- Naming in ElevenLabs: ★ = locked cast, ? = candidate, × = unused.
 - Note: ElevenLabs Voice Design blocks real-child voice prompts; use library "characters_animation" voices for kid characters.
 
 ## Color palette (approximate, sampled by eye)
