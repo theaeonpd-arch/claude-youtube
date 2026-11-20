@@ -37,3 +37,12 @@ texture, not 3D, no CGI, no line flicker, limited gentle animation".
    (`/kids-story-studio characters`) and store ids in `characters.md`.
 2. For each episode: image per scene with references → animate approved images
    to video → never generate a main character from text alone.
+
+## Episode continuity (learned from Episode 01 test)
+- Lock every story prop in one sentence (e.g. "the crayon box is always a small
+  wooden box with a hinged lid") and append it to every scene prompt.
+- For each recurring setting (porch, kitchen, playground), first generate ONE
+  empty "master background" image (no characters) and pass it as an extra
+  reference in every scene set there. Store its job id in the episode's assets.json.
+- Re-check small signature details in QA (e.g. Huggle's heart patch must be
+  clearly heart-shaped and visible).
