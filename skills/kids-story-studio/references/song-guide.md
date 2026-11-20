@@ -15,3 +15,12 @@ Example chorus (sharing):
   One for you and one for me!
   When we share, we both can play,
   Sharing makes a happy day!
+
+## Fixed Huggleberry sound (Suno "Style of Music" — reuse every episode)
+cheerful preschool sing-along, nursery rhyme, ukulele, glockenspiel, xylophone,
+soft hand claps, light shaker, bouncy, 110 BPM, major key, warm friendly female
+lead vocal with a small kids' choir on the chorus, clear simple diction, gentle,
+cozy, storybook
+
+Exclude Styles: rock, electric guitar, heavy drums, dubstep, rap, autotune, dark,
+sad, minor key, distortion, screaming

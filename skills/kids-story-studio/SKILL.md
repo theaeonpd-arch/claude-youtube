@@ -69,6 +69,11 @@ Rules:
 Load `references/song-guide.md`. Write a 4-8 line chorus + 1 short verse that
 restates the lesson, uses the value word at least 3 times and fits ~60 seconds.
 Save to `lyrics.txt`. The chorus is also the main Short.
+Also write `suno.txt` for the user (they produce songs in Suno Pro): Title,
+Style of Music (reuse the fixed Huggleberry style from `references/song-guide.md`),
+Exclude Styles, and Lyrics with Suno section tags ([Intro], [Chorus], [Verse],
+[Bridge], [Final Chorus], [Outro], [End]). Do not generate the song in Higgsfield
+unless the user asks.
 
 ### Step 3 — Scene list (character-consistent)
 Load `references/prompt-rules.md` and `characters/characters.md`.
