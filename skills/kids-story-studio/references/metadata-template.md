@@ -1,7 +1,7 @@
 # Upload Metadata Template
 
 TITLE (<= 60 chars, value keyword first, then format, then channel name):
-  "Sharing Is Fun! | Kindness Story & Song for Kids | <Channel>"
+  "Sharing Is Fun! | Kindness Story & Song for Kids | Huggleberry Studios"
 
 DESCRIPTION:
   Line 1-2 (hook, keyword in first 25 words):
