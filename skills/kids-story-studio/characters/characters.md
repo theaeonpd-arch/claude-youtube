@@ -19,7 +19,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: warm, curious, a little impatient
 - Catchphrase: "Huggle hugs make it better!"
 - LOCKED LOOK: Huggle, a small chubby brown bear cub with fluffy textured fur, a dark brown curly tuft on top of his head, round ears with pink insides, a light tan muzzle with a small dark nose, small dark eyes with expressive brows, rosy pink cheeks, wearing short light-blue overalls with two dark-blue buttons and a pink heart patch on the bib, and a small round tail.
-- Voice: TBD (candidates in ElevenLabs marked "Huggleberry ? Huggle candidate"); avoid voices that imitate known characters
+- Voice: ElevenLabs "Huggleberry ★ Huggle (Teddy Twinkle)" — library cartoon-boy voice; settings stability 0.3, similarity 0.8, style 0.45, speaker boost on. Avoid voices that imitate known characters.
 - Reference images: characters/images/huggle-turnaround.webp, characters/images/huggle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
