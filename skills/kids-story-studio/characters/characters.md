@@ -1,8 +1,12 @@
 # Main Cast (LOCKED descriptions — copy verbatim into prompts)
 
-Status: READY (v1). Art style: hand-drawn 2D storybook (see references/prompt-rules.md).
-Missing sheets: expression sheets for Huggle, Kindle, Grandma Moonbun;
-turnaround sheets for Pip and Twinkle.
+Status: READY (v1, all sheets complete). Art style: hand-drawn 2D storybook (see references/prompt-rules.md).
+
+Images are NOT in the git repo (kept private). In a fresh session, ask the user
+to re-upload the 10 sheets and save them into `characters/images/` with these names:
+<name>-turnaround.webp and <name>-expressions.webp for huggle, pip, twinkle,
+kindle, grandma-moonbun. If images are missing, generate from the LOCKED LOOK
+text only after warning the user that consistency will be lower.
 
 Reference images live in `characters/images/`. Sheet labels (names, "FRONT",
 "HAPPY"...) are printed on the images: crop or mask them out before using an
@@ -14,9 +18,9 @@ image as a generation reference, so no text leaks into scenes.
 - Story age: 6
 - Personality: warm, curious, a little impatient
 - Catchphrase: "Huggle hugs make it better!"
-- LOCKED LOOK: Huggle, a small chubby brown bear cub with fluffy textured fur, a dark brown curly tuft on top of his head, round ears with pink insides, a light tan muzzle with a small dark nose, gentle smiling eyes, rosy pink cheeks, wearing short light-blue overalls with two dark-blue buttons and a pink heart patch on the bib, and a small round tail.
+- LOCKED LOOK: Huggle, a small chubby brown bear cub with fluffy textured fur, a dark brown curly tuft on top of his head, round ears with pink insides, a light tan muzzle with a small dark nose, small dark eyes with expressive brows, rosy pink cheeks, wearing short light-blue overalls with two dark-blue buttons and a pink heart patch on the bib, and a small round tail.
 - Voice: young boy, warm, energetic, slightly breathy
-- Reference images: characters/images/huggle-turnaround.webp
+- Reference images: characters/images/huggle-turnaround.webp, characters/images/huggle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Pip
@@ -28,7 +32,7 @@ image as a generation reference, so no text leaks into scenes.
 - LOCKED LOOK: Pip, a tiny baby hedgehog with a big rounded mane of soft, fluffy orange-brown spikes framing his whole body, a light golden-tan face and body, a cream belly, round ears with pink insides, big dark eyes, a small brown nose, rosy cheeks, always wearing a small open coral-red vest.
 - Distinguish from Huggle: Pip is smaller, lighter golden-tan, has the spiky mane and the coral-red vest; never draw Pip in overalls or Huggle with a vest.
 - Voice: small child, soft, a little hesitant
-- Reference images: characters/images/pip-expressions.webp
+- Reference images: characters/images/pip-turnaround.webp, characters/images/pip-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Twinkle
@@ -39,7 +43,7 @@ image as a generation reference, so no text leaks into scenes.
 - Catchphrase: "Ooh, I have an idea!"
 - LOCKED LOOK: Twinkle, a golden-yellow kitten with pointed ears with pink insides, a cream muzzle and cream paw tips, a small brown nose, big dark eyes, rosy cheeks, a fluffy tail with a cream tip, wearing a simple sleeveless teal dress.
 - Voice: young girl, bright, bubbly, quick
-- Reference images: characters/images/twinkle-expressions.webp
+- Reference images: characters/images/twinkle-turnaround.webp, characters/images/twinkle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Kindle
@@ -50,7 +54,7 @@ image as a generation reference, so no text leaks into scenes.
 - Catchphrase: "Buzz buzz, it's song time!"
 - LOCKED LOOK: Kindle, a small round fuzzy honey-yellow bee with two wide dark-brown stripes on the lower body, two antennae with round brown tips, light mint translucent wings, big dark eyes, a small brown nose, rosy cheeks, a lavender bow tie, tiny brown feet, always hovering slightly above the ground.
 - Voice: cheerful, sing-song, medium-high
-- Reference images: characters/images/kindle-turnaround.webp
+- Reference images: characters/images/kindle-turnaround.webp, characters/images/kindle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Grandma Moonbun
@@ -60,7 +64,7 @@ image as a generation reference, so no text leaks into scenes.
 - Catchphrase: "What do you think, little one?"
 - LOCKED LOOK: Grandma Moonbun, a gentle lavender-grey grandmother bunny with long upright ears with pink insides, a cream muzzle, a small dark nose, round thin wire glasses, rosy cheeks, wearing a soft sage-green cardigan with one large button over a cream dress, and a fluffy round tail.
 - Voice: elderly woman, slow, soft, warm
-- Reference images: characters/images/grandma-moonbun-turnaround.webp
+- Reference images: characters/images/grandma-moonbun-turnaround.webp, characters/images/grandma-moonbun-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
 ## Color palette (approximate, sampled by eye)
