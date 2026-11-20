@@ -19,8 +19,8 @@ tools:
 
 # Kids Story Studio
 
-Produces one episode of an English-language animated moral-story channel for
-ages 4-7. Every episode teaches exactly ONE value, uses the same recurring
+Produces one episode of Huggleberry Studios, an English-language hand-drawn
+2D animated moral-story channel for ages 4-7. Every episode teaches exactly ONE value, uses the same recurring
 characters, and follows the same fixed structure so production is repeatable.
 
 The goal is "smart automation", not mass production: YouTube's July 2025

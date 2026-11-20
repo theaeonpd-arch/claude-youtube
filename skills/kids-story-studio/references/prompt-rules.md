@@ -1,10 +1,21 @@
 # Prompt Rules (visual consistency)
 
 ## Fixed style line (prefix EVERY image and video prompt with it)
-Defined in `channel.md` as `STYLE_LINE`. Default until the user picks one:
-"Soft 3D children's animation style, rounded friendly shapes, bright pastel
-colors, warm soft lighting, clean simple backgrounds, gentle expressions,
-16:9, high detail, no text, no logos."
+"Hand-drawn 2D children's storybook illustration, soft colored-pencil and
+crayon texture, warm muted pastel palette, cream paper tones, soft brown
+outlines, rosy cheeks, gentle cozy lighting, simple uncluttered backgrounds,
+flat 2D, 16:9, no text, no logos."
+
+Always append to video prompts: "keep the flat 2D hand-drawn look and paper
+texture, not 3D, no CGI, no line flicker, limited gentle animation".
+
+## 2D animation approach (cheaper, calmer, more consistent)
+- Prefer limited animation: blinking, breathing, small head tilts, arm waves,
+  ears/tail wiggles, slow camera pan or push-in over the illustration.
+- Many scenes can be a still illustration + gentle camera move (parallax)
+  instead of a full video clip; use full video only for key actions
+  (hug, dance, giving the toy). Target: ~40% of scenes as motion clips.
+- Keep clips 4-6 s; avoid complex walking/turning, which breaks 2D style.
 
 ## Characters
 - Always paste the locked description of each character from
