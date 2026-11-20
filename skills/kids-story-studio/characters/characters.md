@@ -19,7 +19,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: warm, curious, a little impatient
 - Catchphrase: "Huggle hugs make it better!"
 - LOCKED LOOK: Huggle, a small chubby brown bear cub with fluffy textured fur, a dark brown curly tuft on top of his head, round ears with pink insides, a light tan muzzle with a small dark nose, small dark eyes with expressive brows, rosy pink cheeks, wearing short light-blue overalls with two dark-blue buttons and a pink heart patch on the bib, and a small round tail.
-- Voice: young boy, warm, energetic, slightly breathy
+- Voice: ElevenLabs "Huggleberry - Huggle A (Teddy Twinkle)" (library voice; cartoon boy)
 - Reference images: characters/images/huggle-turnaround.webp, characters/images/huggle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -42,7 +42,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: cheerful, creative, a bit messy
 - Catchphrase: "Ooh, I have an idea!"
 - LOCKED LOOK: Twinkle, a golden-yellow kitten with pointed ears with pink insides, a cream muzzle and cream paw tips, a small brown nose, big dark eyes, rosy cheeks, a fluffy tail with a cream tip, wearing a simple sleeveless teal dress.
-- Voice: young girl, bright, bubbly, quick
+- Voice: ElevenLabs "Huggleberry - Twinkle" (Voice Design)
 - Reference images: characters/images/twinkle-turnaround.webp, characters/images/twinkle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -53,7 +53,7 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: helpful, quick, musical
 - Catchphrase: "Buzz buzz, it's song time!"
 - LOCKED LOOK: Kindle, a small round fuzzy honey-yellow bee with two wide dark-brown stripes on the lower body, two antennae with round brown tips, light mint translucent wings, big dark eyes, a small brown nose, rosy cheeks, a lavender bow tie, tiny brown feet, always hovering slightly above the ground.
-- Voice: cheerful, sing-song, medium-high
+- Voice: ElevenLabs "Huggleberry - Kindle" (Voice Design)
 - Reference images: characters/images/kindle-turnaround.webp, characters/images/kindle-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
 
@@ -63,9 +63,13 @@ image as a generation reference, so no text leaks into scenes.
 - Personality: calm, loving, patient
 - Catchphrase: "What do you think, little one?"
 - LOCKED LOOK: Grandma Moonbun, a gentle lavender-grey grandmother bunny with long upright ears with pink insides, a cream muzzle, a small dark nose, round thin wire glasses, rosy cheeks, wearing a soft sage-green cardigan with one large button over a cream dress, and a fluffy round tail.
-- Voice: elderly woman, slow, soft, warm
+- Voice: Higgsfield preset "Opal" (elevenlabs_v4, voice_id 66f35c82-2088-55eb-a0aa-7bf715dc03b7)
 - Reference images: characters/images/grandma-moonbun-turnaround.webp, characters/images/grandma-moonbun-expressions.webp
 - Higgsfield character sheet / media ids: (to be added)
+
+## Narrator
+- Voice: ElevenLabs, TBD (motherly, warm, intimate, nostalgic storyteller)
+- Note: ElevenLabs Voice Design blocks real-child voice prompts; use library "characters_animation" voices for kid characters.
 
 ## Color palette (approximate, sampled by eye)
 | Character | Main | Accent |
